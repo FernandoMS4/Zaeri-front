@@ -65,10 +65,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "Zaeri-WebApp:build:production"
+              "buildTarget": "Zaeri-WebApp:build:production"
             },
             "development": {
-              "browserTarget": "Zaeri-WebApp:build:development"
+              "buildTarget": "Zaeri-WebApp:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -76,7 +76,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "Zaeri-WebApp:build"
+            "buildTarget": "Zaeri-WebApp:build"
           }
         },
         "test": {
